@@ -122,6 +122,8 @@ pip install pandas
 
 ## Análisis y Visualización
 
+Los datos procesados se integraron en un dashboard de Power BI, destacando insights relevantes.
+
 ### Punto 1: Barrios más transaccionales por cliente
 **Gráfico:** Distribución por cliente en barrios clave.  
 ![Punto 1.1](Media/punto1.1.png)
