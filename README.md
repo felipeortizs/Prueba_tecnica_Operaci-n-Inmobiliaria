@@ -5,7 +5,7 @@
 
 ## Descripción
 
-En el contexto de un banco líder como **Bancolombia**, esta solución aborda retos relacionados con el análisis, procesamiento y reporte de datos transaccionales. Utilizando un enfoque híbrido entre Python y SQL, la solución implementada automatiza cálculos clave, genera visualizaciones relevantes en **Power BI** y proporciona respuestas eficientes a problemas planteados en una prueba técnica.
+En el contexto de un banco líder como **Bancolombia**, esta solución aborda retos relacionados con el análisis, procesamiento y reporte de datos transaccionales. Utilizando un enfoque híbrido entre Python y SQL, la solución implementada automatiza cálculos clave, genera visualizaciones relevantes en **Power BI** y proporciona respuestas eficientes a problemas planteados en la prueba técnica.
 
 Se procesaron tres datasets principales con información de barrios, dispositivos y transacciones, logrando identificar patrones de uso, clientes y dispositivos clave. Los resultados fueron validados y exportados para su análisis.
 
