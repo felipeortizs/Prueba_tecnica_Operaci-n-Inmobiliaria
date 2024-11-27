@@ -95,11 +95,16 @@ pip install pandas
 ## Estructura del Proyecto
 
 ```bash
-├── data/                            # Carpeta para almacenar los datos originales y procesados
-├── scripts/                         # Carpeta que contiene los scripts Python y SQL
-├── results/                         # Carpeta para los archivos CSV generados
-├── media/                           # Carpeta con imágenes del dashboard y análisis
-├── README.md                        # Este archivo
+├── Instrucciones/                  # Instrucciones de la prueba técnica.
+├── Media/                          # Imágenes y validaciones de la solución.
+├── PowerBI/                        # Dashboards y visualizaciones realizadas en Power BI.
+├── Python & DB/                    # Scripts de Python y archivos CSV utilizados como insumos.
+├── Resultados/                     # Archivos de resultados generados tras el procesamiento.
+├── Scripts SQL/                    # Scripts SQL utilizados para resolver los puntos.
+├── bancolombia_db/                 # Base de datos SQLite.
+├── README.md                       # Archivo de documentación del proyecto.
+├── Componente GIT & Preguntas.pdf  # Documento con los pasos de Git y las preguntas abiertas.
+├── Solución_comprimida.zip         # Carpeta comprimida con todos los archivos entregados.
 ```
 
 
