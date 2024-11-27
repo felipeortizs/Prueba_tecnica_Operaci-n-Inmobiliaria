@@ -87,20 +87,20 @@ El código fue documentado y preparado para ser gestionado en un repositorio rem
 
 Instala las dependencias necesarias ejecutando:
 
-\`\`\`bash
+```bash
 pip install pandas
-\`\`\`
+```
 
 
 ## Estructura del Proyecto
 
-\`\`\`bash
+```bash
 ├── data/                            # Carpeta para almacenar los datos originales y procesados
 ├── scripts/                         # Carpeta que contiene los scripts Python y SQL
 ├── results/                         # Carpeta para los archivos CSV generados
 ├── media/                           # Carpeta con imágenes del dashboard y análisis
 ├── README.md                        # Este archivo
-\`\`\`
+```
 
 
 ## Diccionario de Datos
