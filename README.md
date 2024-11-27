@@ -106,19 +106,23 @@ pip install pandas
 ## Diccionario de Datos
 
 **Archivo 1 (trx_clientes):**  
-- \`registro\`: Identificador único del cliente.  
-- \`mnt_total_trx\`: Monto total transaccionado.  
-- \`cod_dispositivo\`: Código del dispositivo utilizado.  
+- `registro`: Identificador único del cliente.  
+- `tipo_doc`: Tipo de documento del cliente.  
+- `canal`: Canal utilizado para la transacción (e.g., POS, cajeros).  
+- `cod_dispositivo`: Código del dispositivo donde se realizó la transacción.  
+- `num_trx`: Número de transacciones realizadas.  
+- `mnt_total_trx`: Monto total transaccionado por el cliente.  
 
 **Archivo 2 (ubicación_dispositivos):**  
-- \`codigo\`: Identificador único del dispositivo.  
-- \`tipo\`: Tipo de dispositivo (\`POS\`, \`DISPENSADOR\`, etc.).  
-- \`id_barrio\`: Identificador del barrio asociado.  
+- `tipo`: Tipo de dispositivo (e.g., POS, cajeros, corresponsales).  
+- `codigo`: Identificador único del dispositivo.  
+- `latitud`: Coordenada de latitud del dispositivo.  
+- `longitud`: Coordenada de longitud del dispositivo.  
+- `id_barrio`: Identificador único del barrio asociado al dispositivo.  
 
 **Archivo 3 (barrios):**  
-- \`codigo\`: Identificador único del barrio.  
-- \`nombre\`: Nombre del barrio.  
-
+- `codigo`: Identificador único del barrio.  
+- `nombre`: Nombre del barrio asociado al código.  
 
 ## Análisis y Visualización
 
